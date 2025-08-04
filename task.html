@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Responsive Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: #f4f4f4;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .cta-button {
+      background: #ff9800;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .cta-button:hover {
+      background: #e68a00;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Product</h1>
+    <p>Make your life easier with our amazing solution.</p>
+    <button class="cta-button">Get Started</button>
+  </header>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <p>We offer top-notch services that are fast, reliable, and easy to use.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Product Image">
+  </section>
+
+</body>
+</html>
